@@ -41,4 +41,283 @@ header .side #contato:hover {
   opacity: 0.9;
 }
 
+#title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #151717;
+}
+
+.projetos {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.projetos .flex-h {
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.projetos .flex-h .project-1 {
+  box-shadow: 2px 2px 32px rgba(40, 38, 44, 0.15);
+  border-radius: 6px;
+  margin-right: 5%;
+  background: #f5f2fd;
+}
+.projetos .flex-h .project-1 h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151717;
+  padding: 20px;
+}
+.projetos .flex-h .project-1 .tech {
+  padding: 11px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.projetos .flex-h .project-1 .tech p {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: var(--text-color-2);
+  border-radius: 6px;
+  color: #dbffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+.projetos .flex-h .project-1 p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1f2626;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+.projetos .flex-h .project-2 {
+  box-shadow: 2px 2px 32px rgba(40, 38, 44, 0.15);
+  border-radius: 6px;
+  margin-right: 5%;
+  background: #f5f2fd;
+}
+.projetos .flex-h .project-2 h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151717;
+  padding: 20px;
+}
+.projetos .flex-h .project-2 .tech {
+  padding: 11px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.projetos .flex-h .project-2 .tech p {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: var(--text-color-2);
+  border-radius: 6px;
+  color: #dbffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+.projetos .flex-h .project-2 p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1f2626;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+.projetos .flex-h-2 {
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.projetos .flex-h-2 .project-1 {
+  box-shadow: 2px 2px 32px rgba(40, 38, 44, 0.15);
+  border-radius: 6px;
+  margin-right: 5%;
+  background: #f5f2fd;
+}
+.projetos .flex-h-2 .project-1 h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151717;
+  padding: 20px;
+}
+.projetos .flex-h-2 .project-1 .tech {
+  padding: 11px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.projetos .flex-h-2 .project-1 .tech p {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: var(--text-color-2);
+  border-radius: 6px;
+  color: #dbffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+.projetos .flex-h-2 .project-1 p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1f2626;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+.projetos .flex-h-2 .project-2 {
+  box-shadow: 2px 2px 32px rgba(40, 38, 44, 0.15);
+  border-radius: 6px;
+  margin-right: 5%;
+  background: #f5f2fd;
+}
+.projetos .flex-h-2 .project-2 h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151717;
+  padding: 20px;
+}
+.projetos .flex-h-2 .project-2 .tech {
+  padding: 11px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.projetos .flex-h-2 .project-2 .tech p {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: var(--text-color-2);
+  border-radius: 6px;
+  color: #dbffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+.projetos .flex-h-2 .project-2 p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1f2626;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+.footer-1 {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 1px solid #5222d0;
+}
+.footer-1 .social {
+  display: flex;
+}
+.footer-1 .social .gmail {
+  text-align: center;
+  padding: 10px;
+}
+.footer-1 .social .gmail p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 11px;
+  color: var(--text-color-1);
+  text-transform: uppercase;
+}
+.footer-1 .social .linkedin {
+  text-align: center;
+  padding: 10px;
+}
+.footer-1 .social .linkedin p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 11px;
+  color: var(--text-color-1);
+  text-transform: uppercase;
+}
+.footer-1 .social .git {
+  text-align: center;
+  padding: 10px;
+}
+.footer-1 .social .git p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 11px;
+  color: var(--text-color-1);
+  text-transform: uppercase;
+}
+.footer-1 .navs {
+  margin-top: 2vh;
+}
+.footer-1 .navs a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--text-color-1);
+  padding: 5px 35px;
+}
+.footer-1 .navs a:hover {
+  color: var(--text-color-2);
+}
+.footer-1 .navs a:visited {
+  color: var(--text-color-1);
+}
+.footer-1 p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: var(--text-color-1);
+  margin-top: 2vh;
+}
+
 /*# sourceMappingURL=projetos.css.map */
