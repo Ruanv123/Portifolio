@@ -360,4 +360,41 @@ header {
         margin-top: 2vh;
     }
 }
-
+@media screen and (max-width: 600px) {
+    .projetos {
+        .flex-h {
+            flex-direction: column;
+            align-items: center;
+            .project-1 {
+                width: 80%;
+                img {
+                  width: 100%;
+                }
+            }
+            .project-2 {
+                margin-top: 5vh;
+                width: 80%;
+                img {
+                  width: 100%;
+                }
+            }
+        }
+        .flex-h-2 {
+            flex-direction: column;
+            align-items: center;
+            .project-1 {
+                width: 80%;
+                img {
+                  width: 100%;
+                }
+            }
+            .project-2 {
+                margin-top: 5vh;
+                width: 80%;
+                img {
+                  width: 100%;
+                }  
+            } 
+        }
+    }
+}

@@ -322,4 +322,41 @@ header .side #contato:hover {
   margin-top: 2vh;
 }
 
+@media screen and (max-width: 600px) {
+  .projetos .flex-h {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projetos .flex-h .project-1 {
+    width: 80%;
+  }
+  .projetos .flex-h .project-1 img {
+    width: 100%;
+  }
+  .projetos .flex-h .project-2 {
+    margin-top: 5vh;
+    width: 80%;
+  }
+  .projetos .flex-h .project-2 img {
+    width: 100%;
+  }
+  .projetos .flex-h-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projetos .flex-h-2 .project-1 {
+    width: 80%;
+  }
+  .projetos .flex-h-2 .project-1 img {
+    width: 100%;
+  }
+  .projetos .flex-h-2 .project-2 {
+    margin-top: 5vh;
+    width: 80%;
+  }
+  .projetos .flex-h-2 .project-2 img {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=projetos.css.map */
