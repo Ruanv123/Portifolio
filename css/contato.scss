@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --text-color-1: #1f2626;
+    --text-color-2: #5222d0;
+    --text-color-white: #fff;
+    --text-color-black: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        color: var(--text-color-1);
+        padding: 25px;
+    }
+
+    .side {
+        a {
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            color: var(--text-color-1);
+            padding: 20px;
+        }
+
+        #contato {
+            background-color: var(--text-color-2);
+            padding: 15px;
+            border-radius: 6px;
+            color: var(--text-color-white);
+        }
+
+        #contato:hover {
+            opacity: 0.9;
+        }
+    }
+}
+
+.form {
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    label {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+        border: 1px solid #534084;
+        border-radius: 6px;
+        padding: 10px;
+        outline: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    p {
+        display: none;
+    }
+
+    textarea {
+        border: 1px solid #534084;
+        border-radius: 6px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        width: 100%;
+        outline: 0;
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 2vh;
+        padding: 10px;
+        background: #5222d0;
+        border-radius: 6px;
+        border: 0;
+        outline: 0;
+    }
+}
+
+.footer-1 {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1px solid #5222d0;
+    .social {
+        display: flex;
+
+        .gmail {
+            text-align: center;
+            padding: 10px;
+
+            p {
+                font-family: "Roboto", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 11px;
+                color: var(--text-color-1);
+                text-transform: uppercase;
+            }
+        }
+
+        .linkedin {
+            text-align: center;
+            padding: 10px;
+
+            p {
+                font-family: "Roboto", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 11px;
+                color: var(--text-color-1);
+                text-transform: uppercase;
+            }
+        }
+
+        .git {
+            text-align: center;
+            padding: 10px;
+
+            p {
+                font-family: "Roboto", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 11px;
+                color: var(--text-color-1);
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .navs {
+        margin-top: 2vh;
+
+        a {
+            font-family: "Roboto", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: var(--text-color-1);
+            padding: 5px 35px;
+        }
+
+        a:hover {
+            color: var(--text-color-2);
+        }
+
+        a:visited {
+            color: var(--text-color-1);
+        }
+    }
+
+    p {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 00.04em;
+        color: var(--text-color-1);
+        margin-top: 2vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form {
+        margin: 50px;
+        padding-top: 100px;
+    }
+}
