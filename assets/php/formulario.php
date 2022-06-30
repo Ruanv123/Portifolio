@@ -26,8 +26,8 @@ if((isset($_POST['email-input']) && !empty(trim($_POST['email-input']))) && (iss
 	$mail->isSMTP();
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;i
-	$mail->Username = 'ruanvictorfake22@gmail.com';
-	$mail->Password = 'Ruanbile1';
+	$mail->Username = '';
+	$mail->Password = '';
 	$mail->Port = 587;
  
 	$mail->setFrom('ruanvictorfake22@gmail.com');
