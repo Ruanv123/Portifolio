@@ -13,6 +13,14 @@
     --text-color-black: #000;
 }
 
+body::-webkit-scrollbar {
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--text-color-2);
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -107,6 +115,7 @@ form {
     justify-content: center;
     flex-direction: column;
     border-top: 1px solid #5222d0;
+
     .social {
         display: flex;
 

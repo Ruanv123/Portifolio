@@ -13,6 +13,14 @@
   --text-color-black: #000;
 }
 
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--text-color-2);
+}
+
 header {
   display: flex;
   justify-content: space-around;
