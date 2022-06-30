@@ -16,6 +16,10 @@
   --text-color-diferente: #dbffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body::-webkit-scrollbar {
   width: 6px;
 }

@@ -13,6 +13,10 @@
     --text-color-black: #000;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body::-webkit-scrollbar {
     width: 6px;
 }
