@@ -86,7 +86,12 @@ header .side #contato:hover {
   color: var(--text-color-1);
   margin-bottom: 3vh;
 }
-.suport-1 .text a {
+.suport-1 .text .btns-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.suport-1 .text .btns-flex #btn-1 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -96,6 +101,20 @@ header .side #contato:hover {
   background: #5222d0;
   border-radius: 6px;
   color: #dbffff;
+}
+.suport-1 .text .btns-flex p {
+  padding: 10px;
+}
+.suport-1 .text .btns-flex #btn-2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 15px;
+  border: 1px solid #5222d0;
+  border-radius: 6px;
+  color: #5222d0;
 }
 
 .About-me {
@@ -413,6 +432,9 @@ header .side #contato:hover {
     width: 100%;
     margin-top: 3vh;
   }
+  .suport-1 .btns-flex {
+    justify-content: center;
+  }
   .About-me {
     padding: 20px;
   }
@@ -447,10 +469,12 @@ header .side #contato:hover {
   .skills .linha-1 {
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
   }
   .skills .linha-2 {
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
   }
 }
 

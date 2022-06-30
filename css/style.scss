@@ -96,18 +96,38 @@ header {
       color: var(--text-color-1);
       margin-bottom: 3vh;
     }
+    .btns-flex {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      #btn-1{
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 10px 15px;
+        background: #5222d0;
+        border-radius: 6px;
+        color: #dbffff;
+      }
+      p {
+        padding: 10px;
+      }
+      #btn-2 {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 10px 15px;
+        border: 1px solid #5222d0;
+        border-radius: 6px;
+        color: #5222d0;
 
-    a {
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 20px;
-      padding: 10px 15px;
-      background: #5222d0;
-      border-radius: 6px;
-      color: #dbffff;
+      }
     }
+    
   }
 }
 
@@ -464,6 +484,9 @@ header {
       width: 100%;
       margin-top: 3vh;
     }
+    .btns-flex {
+      justify-content: center;
+    }
   }
 
   .About-me {
@@ -508,11 +531,13 @@ header {
     .linha-1 {
       flex-wrap: wrap;
       align-items: center;
+      justify-content: center;
     }
 
     .linha-2 {
       flex-wrap: wrap;
       align-items: center;
+      justify-content: center;
     }
   }
 }
