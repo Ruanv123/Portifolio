@@ -257,7 +257,6 @@ header .side #contato:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border-top: 1px solid #5222d0;
 }
 .footer-1 .social {
   display: flex;
